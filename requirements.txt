@@ -57,7 +57,7 @@ fairscale==0.4.4
 pycocotools==2.0.5
 pycocoevalcap==1.2
 regex
-timm==0.4.12
+timm==0.6.7
 tqdm==4.64.0
 tensorboard==2.10.1
 
