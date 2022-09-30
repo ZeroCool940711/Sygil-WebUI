@@ -53,7 +53,7 @@ hydralit_components==1.0.10
 
 # Img2text
 ftfy==6.1.1
-fairscale==0.4.4
+fairscale==0.4.10
 pycocotools==2.0.5
 pycocoevalcap==1.2
 regex
