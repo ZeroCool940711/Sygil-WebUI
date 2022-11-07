@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[383],{1831:l=>{l.exports=JSON.parse('[{"label":"facebook","permalink":"/sygil-webui/blog/tags/facebook","count":1},{"label":"hello","permalink":"/sygil-webui/blog/tags/hello","count":1},{"label":"docusaurus","permalink":"/sygil-webui/blog/tags/docusaurus","count":1}]')}}]);

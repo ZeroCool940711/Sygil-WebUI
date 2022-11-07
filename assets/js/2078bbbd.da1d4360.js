@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[904],{3136:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/sygil-webui/blog/tags/docusaurus","allTagsPath":"/sygil-webui/blog/tags","count":1}')}}]);
