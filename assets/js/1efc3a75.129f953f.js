@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[180],{6912:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/sygil-webui/blog/tags/hello","allTagsPath":"/sygil-webui/blog/tags","count":1}')}}]);
