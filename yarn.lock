@@ -1339,6 +1339,14 @@
     chalk "^4.1.2"
     tslib "^2.4.0"
 
+"@docusaurus/logger@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/logger/-/logger-2.3.0.tgz#da4154c271b41f3cbb0b1b86c96ffddd657a1ade"
+  integrity sha512-GO8s+FJpNT0vwt6kr/BZ/B1iB8EgHH/CF590i55Epy3TP2baQHGEHcAnQWvz5067OXIEke7Sa8sUNi0V9FrcJw==
+  dependencies:
+    chalk "^4.1.2"
+    tslib "^2.4.0"
+
 "@docusaurus/mdx-loader@2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/mdx-loader/-/mdx-loader-2.2.0.tgz#fd558f429e5d9403d284bd4214e54d9768b041a0"
@@ -1627,6 +1635,28 @@
   dependencies:
     "@docusaurus/logger" "2.2.0"
     "@svgr/webpack" "^6.2.1"
+    file-loader "^6.2.0"
+    fs-extra "^10.1.0"
+    github-slugger "^1.4.0"
+    globby "^11.1.0"
+    gray-matter "^4.0.3"
+    js-yaml "^4.1.0"
+    lodash "^4.17.21"
+    micromatch "^4.0.5"
+    resolve-pathname "^3.0.0"
+    shelljs "^0.8.5"
+    tslib "^2.4.0"
+    url-loader "^4.1.1"
+    webpack "^5.73.0"
+
+"@docusaurus/utils@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.3.0.tgz#a4ee8446f644f7232f8a315f0a357092c28c1b6b"
+  integrity sha512-6+GCurDsePHHbLM3ktcjv8N4zrjgrl1O7gOQNG4UMktcwHssFFVm+geVcB4M8siOmwUjV2VaNrp0hpGy8DOQHw==
+  dependencies:
+    "@docusaurus/logger" "2.3.0"
+    "@svgr/webpack" "^6.2.1"
+    escape-string-regexp "^4.0.0"
     file-loader "^6.2.0"
     fs-extra "^10.1.0"
     github-slugger "^1.4.0"
@@ -3154,6 +3184,22 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+create-docusaurus@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/create-docusaurus/-/create-docusaurus-2.3.0.tgz#e8cc156a5457edf6313105d3b301629ef2cd2f59"
+  integrity sha512-XRie5wTS79Rt02GKB+NiD6deV6QlR715GnosQYGSCR7oCaai2JeYqwTrv5FtXjCXddYw+wZ0xSMLr/Zjfhpz/g==
+  dependencies:
+    "@docusaurus/logger" "2.3.0"
+    "@docusaurus/utils" "2.3.0"
+    commander "^5.1.0"
+    fs-extra "^10.1.0"
+    lodash "^4.17.21"
+    prompts "^2.4.2"
+    semver "^7.3.7"
+    shelljs "^0.8.5"
+    supports-color "^9.2.2"
+    tslib "^2.4.0"
 
 cross-fetch@^3.1.5:
   version "3.1.5"
@@ -6914,6 +6960,11 @@ supports-color@^8.0.0:
   dependencies:
     has-flag "^4.0.0"
 
+supports-color@^9.2.2:
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-9.3.1.tgz#34e4ad3c71c9a39dae3254ecc46c9b74e89e15a6"
+  integrity sha512-knBY82pjmnIzK3NifMo3RxEIRD9E0kIzV4BKcyTZ9+9kWgLMxd4PrsTSMoFQUabgRBbF8KOLRDCyKgNV+iK44Q==
+
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
@@ -7066,9 +7117,9 @@ typedarray-to-buffer@^3.1.5:
     is-typedarray "^1.0.0"
 
 ua-parser-js@^0.7.30:
-  version "0.7.32"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.32.tgz#cd8c639cdca949e30fa68c44b7813ef13e36d211"
-  integrity sha512-f9BESNVhzlhEFf2CHMSj40NWOjYPl1YKYbrvIr/hFTDEmLq7SRbWvm7FcdcpCYT95zrOhC7gZSxjdnnTpBcwVw==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 unherit@^1.0.4:
   version "1.1.3"
